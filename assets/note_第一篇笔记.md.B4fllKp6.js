@@ -1,0 +1,1 @@
+import{_ as t,c as e,o}from"./chunks/framework.Bx6qu0xe.js";const l=JSON.parse('{"title":"第一篇笔记","description":"","frontmatter":{"layout":"doc","title":"第一篇笔记"},"headers":[],"relativePath":"note/第一篇笔记.md","filePath":"note/第一篇笔记.md"}'),a={name:"note/第一篇笔记.md"};function n(r,c,s,_,d,i){return o(),e("div")}const m=t(a,[["render",n]]);export{l as __pageData,m as default};

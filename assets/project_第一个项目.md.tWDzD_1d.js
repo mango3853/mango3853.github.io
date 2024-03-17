@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./chunks/framework.Bx6qu0xe.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"project/第一个项目.md","filePath":"project/第一个项目.md"}'),a={name:"project/第一个项目.md"};function o(c,s,_,n,p,d){return r(),t("div")}const f=e(a,[["render",o]]);export{m as __pageData,f as default};

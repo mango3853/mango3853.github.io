@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.Bx6qu0xe.js";const l=JSON.parse('{"title":"redis","description":"","frontmatter":{"layout":"doc","title":"redis"},"headers":[],"relativePath":"note/事务.md","filePath":"note/事务.md"}'),a={name:"note/事务.md"};function r(n,s,c,d,i,_){return o(),t("div")}const m=e(a,[["render",r]]);export{l as __pageData,m as default};
