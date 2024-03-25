@@ -18,7 +18,13 @@ export default defineConfig({
         {
           text: '笔记',
           items: [
-            { text: '第一篇笔记', link: '/note/第一篇笔记' },
+            {
+              text: 'SpringCloud', items: [
+                {
+                  text: '注册中心', link: '/note/SpringCloud/注册中心'
+                }
+              ]
+            },
             { text: 'Java基础', link: '/note/Java基础.md' },
             { text: 'MySQL', link: '/note/MySQL' },
             { text: 'Redis', link: '/note/Redis' },
@@ -39,7 +45,15 @@ export default defineConfig({
         {
           text: '面试',
           items: [
-            { text: '科脉技术', link: '/interview/科脉技术' }
+            { text: '科脉技术', link: '/interview/科脉技术' },
+            {
+              text: '面试题', items: [
+                {
+                  text: 'Redis',
+                  link: '/interview/subject/Redis'
+                }
+              ]
+            }
           ]
         }
       ]
