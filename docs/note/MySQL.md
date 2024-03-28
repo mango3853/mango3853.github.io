@@ -3,7 +3,7 @@ layout: doc
 title: redis
 ---
 
-# 慢查询优化
+## 慢查询优化
 可以使用EXPLAIN或DESC命令获取MySQL如何执行SELECT语句的信息
 
 ``` sql
@@ -31,7 +31,7 @@ explain select * from t_user where id = 1
   * index：索引树查询
   * all：全盘扫描
 
-# 索引
+## 索引
 索引（index）是帮助MySQL高效获取数据的数据结构（有序）。在数据之外，数据库系统还维护着满足特定查找算法的数据结构（b+）树，这些数据结构以某种方式引用（指向）数据，这样就可以在这些数据结构上实现高级查找算法，这种数据结构就是索引。
 
 B Tree
