@@ -3,23 +3,20 @@
 layout: home
 
 hero:
-  name: "一些笔记"
+  name: "MangoLiu的博客"
   text: "基于 VitePress 搭建"
-  tagline: My great project tagline
+  tagline: 一些记录
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 快速开始
+      link: /note/MySQL
 
 features:
-  - title: Feature A
+  - title: Mysql
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Redis
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Message
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

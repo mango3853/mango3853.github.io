@@ -8,7 +8,16 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '笔记', link: '/note/' },
+      { text: '笔记', items: [
+          {
+            text: 'MySQL', link: '/note/MySQL'
+          },
+          {
+            text: 'Redis', link: '/note/Redis'
+          },{
+            text: 'RabbitMQ', link: '/note/RabbitMQ'
+          }
+        ] },
       { text: '项目', link: '/project/' },
       { text: '面试', link: '/interview/' }
     ],
